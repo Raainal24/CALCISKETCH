@@ -1,0 +1,34 @@
+
+name: Ollama Assistant
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Mistral
+    provider: ollama
+    model: mistral
+    apiBase: http://localhost:11450
+    roles:
+      - chat
+      - edit
+      - autocomplete
+    defaultCompletionOptions:
+      temperature: 0.7
+      
+  - name: Mistral Embeddings
+    provider: ollama
+    model: nomic-embed-text
+    apiBase: http://localhost:11450
+    roles:
+      - embed
+
+prompts:
+  - name: explain-code
+    description: Explain the highlighted code
+    prompt: |
+      Please explain the following code in detail, describing what it does, how it works, and any important patterns or concepts it demonstrates:
+
+  - name: solve-math
+    description: Solve a mathematical expression
+    prompt: |
+      Solve the following mathematical expression step by step, showing all work:

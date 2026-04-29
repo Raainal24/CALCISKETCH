@@ -1,0 +1,27 @@
+#1.True Whiteboard-Like Tkinter Canvas
+Unlike typical GUI toolkits, CalciSketch ™s front-end uses a fully custom Tkinter canvas that faithfully emulates the tactile feel of a whiteboard ”pen pressure and fluid stroke rendering ”so users write exactly as they would on physical  Whiteboard  not just a generic drawing pane.
+
+#2.Dual-Mode Generative AI Pipeline
+By orchestrating Google's high-accuracy Generative API for online recognition and Ollama's open-source Mistral model for offline processing, the system guarantees 95 %+ recognition when connected and uninterrupted step-by-step solving when offline ”no other solver transparently bridges cloud and local inference.
+
+3.On-The-Fly Handwriting Segmentation
+Every stroke is semantically classified in real time ”text versus symbol versus freeform sketch so users never have to manually toggle  math mode.  This dynamic segmentation feeds the AI engine immediately, collapsing the traditional capture-then-solve pipeline into one live feedback loop.
+
+4.Cursive & Classic Script Robustness
+Your training and integration strategies enable accurate OCR across wildly varying handwriting styles ”including cursive, slanted, and connected-symbol forms ”whereas most systems (e.g. Google's native math input) struggle once expressions grow complex .
+
+**5.Step-By-Step Narrative Solutions
+Beyond computing the numeric or symbolic result, the local Mistral engine generates full, human-readable solution narratives ”so students see each algebraic manipulation or calculus derivation unfold in prose alongside the live sketch .
+
+**6.Persistent, Branchable Canvas State
+Every save creates a version snapshot of the entire boardequations, intermediate steps, sketches, and AI annotations ”letting users fork solution paths, compare alternate approaches, or roll back to any prior state rather than a simple linear undo stack .
+
+
+##7.Load/Reload with Full Context
+Your load feature doesn ™t just restore pixels ”it rehydrates every stroke ™s semantic metadata, AI-generated solution steps, and canvas version history, so instructors can pause a lesson, share with colleagues, and resume exactly where they left off .
+
+**8.Lightweight, Cross-Platform Deployment
+Built entirely in Python with only Tkinter plus the Ollama runtime, CalciSketch runs smoothly on minimal hardware (dual-core i3, 4 GB RAM) and can ship as a self-contained package ”no heavyweight dependencies or paid SDKs required as long as ollama is hosted on a High performance computing server.
+
+**9.Education-First UX & Templates
+Pre-built lesson templates (algebra proofs, calculus derivations, geometry constructions) coupled with contextual hints (spotting sign errors or misplaced terms) transform CalciSketch from a  math solver  into an interactive teaching assistant ”tailored explicitly for classroom workflows rather than one-off computation.
